@@ -1,9 +1,9 @@
-def divide_numbers(a, b):
-    return a / b
+def get_last_elements(lst, n):
+    return lst[-n:]
 
 def main():
-    result = divide_numbers(10, 0)
-    print(f"Result: {result}")
+    test_list = [1, 2, 3]
+    print(get_last_elements(test_list, 5))
 
 if __name__ == '__main__':
     main()
